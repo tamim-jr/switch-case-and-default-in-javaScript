@@ -24,3 +24,23 @@ switch (rollNumber){
     break;
 }
 console.log(text)
+
+//Select rgb color
+
+let color = "Cyan";
+let output;
+
+switch (color){
+    case "Red":
+    case "Green":
+    case "Blue":
+        output = "You are selected RGB's one color"
+    break;
+    default :
+        output = "You are select without RGB color"
+    break;
+    case "Cyan":
+    output = "You select cyan color"
+    break;
+}
+console.log(output);
